@@ -1,0 +1,4 @@
+2023-11-15 13:01:01.237 +02:00 [INF] Route matched with {action = "PersonsCSV", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PersonsCSV() on controller CrudUi.Controllers.PersonController (Crud.UI).
+2023-11-15 13:01:01.242 +02:00 [INF] PersonListActionFilter.OnActionExecuting
+2023-11-15 13:01:01.334 +02:00 [INF] ResponseHeaderActionFilter.OnActionExecuted
+2023-11-15 13:01:01.351 +02:00 [INF] Executed action CrudUi.Controllers.PersonController.PersonsCSV (Crud.UI) in 109.4606ms

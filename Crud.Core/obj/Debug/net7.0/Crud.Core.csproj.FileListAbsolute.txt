@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\Crud.Core.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\Crud.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\Crud.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\Crud.Core.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\Crud.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\bin\Debug\net7.0\Crud.Core.deps.json
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\bin\Debug\net7.0\Crud.Core.runtimeconfig.json
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\bin\Debug\net7.0\Crud.Core.dll
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\bin\Debug\net7.0\Crud.Core.pdb
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\Crud.Core.dll
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\refint\Crud.Core.dll
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\Crud.Core.pdb
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\Crud.Core.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Core\obj\Debug\net7.0\ref\Crud.Core.dll

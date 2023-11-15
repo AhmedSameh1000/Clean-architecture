@@ -1,0 +1,11 @@
+2023-11-15 13:01:01.228 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/PersonsCSV - -
+2023-11-15 13:01:01.232 +02:00 [INF] Executing endpoint 'CrudUi.Controllers.PersonController.PersonsCSV (Crud.UI)'
+2023-11-15 13:01:01.243 +02:00 [INF] PersonListActionFilter.OnActionExecuting
+2023-11-15 13:01:01.296 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveEmails], [c].[Id], [c].[Name]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Id]
+2023-11-15 13:01:01.329 +02:00 [INF] ResponseHeaderActionFilter.OnActionExecuted
+2023-11-15 13:01:01.340 +02:00 [INF] Executing FileStreamResult, sending file with download name 'persons.csv' ...
+2023-11-15 13:01:01.356 +02:00 [INF] Executed endpoint 'CrudUi.Controllers.PersonController.PersonsCSV (Crud.UI)'
+2023-11-15 13:01:01.360 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/PersonsCSV - - - 200 1859 application/octet-stream 132.8542ms

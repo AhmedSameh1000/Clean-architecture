@@ -1,0 +1,119 @@
+2023-11-15 12:59:14.416 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-11-15 12:59:14.454 +02:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-15 12:59:14.621 +02:00 [INF] Now listening on: https://localhost:7213
+2023-11-15 12:59:14.622 +02:00 [INF] Now listening on: http://localhost:5175
+2023-11-15 12:59:16.300 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/ - -
+2023-11-15 12:59:16.395 +02:00 [INF] Executing endpoint 'CrudUi.Controllers.PersonController.Index (Crud.UI)'
+2023-11-15 12:59:16.476 +02:00 [INF] PersonListActionFilter.OnActionExecuting
+2023-11-15 12:59:16.478 +02:00 [INF] PersonListActionFilter.OnActionExecuting
+2023-11-15 12:59:16.478 +02:00 [INF] PersonListActionFilter.OnActionExecuting
+2023-11-15 12:59:16.480 +02:00 [INF] Result Filter Before OnResultExecutionAsync
+2023-11-15 12:59:16.495 +02:00 [INF] Index Action Methode in Person Controller
+2023-11-15 12:59:16.883 +02:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveEmails], [c].[Id], [c].[Name]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Id]
+2023-11-15 12:59:17.049 +02:00 [INF] Result Filter Before OnResultExecutionAsync
+2023-11-15 12:59:17.051 +02:00 [INF] ResponseHeaderActionFilter.OnActionExecuted
+2023-11-15 12:59:17.053 +02:00 [INF] PersonListActionFilter.OnActionExecuted
+2023-11-15 12:59:17.054 +02:00 [INF] ResponseHeaderActionFilter.OnActionExecuted
+2023-11-15 12:59:17.068 +02:00 [INF] Executing ViewResult, running view Index.
+2023-11-15 12:59:17.449 +02:00 [INF] Executed ViewResult - view Index executed in 384.6174ms.
+2023-11-15 12:59:17.460 +02:00 [INF] Executed endpoint 'CrudUi.Controllers.PersonController.Index (Crud.UI)'
+2023-11-15 12:59:17.511 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/CrudUi.styles.css - -
+2023-11-15 12:59:17.511 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - -
+2023-11-15 12:59:17.511 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-11-15 12:59:17.529 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/CrudUi.styles.css - - - 404 0 - 16.3971ms
+2023-11-15 12:59:17.532 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/lib/jquery/dist/jquery.min.js - -
+2023-11-15 12:59:17.533 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-11-15 12:59:17.533 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-11-15 12:59:17.533 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_vs/browserLink - -
+2023-11-15 12:59:17.549 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - -
+2023-11-15 12:59:17.555 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/ - - - 200 - text/html;+charset=utf-8 1259.7584ms
+2023-11-15 12:59:17.564 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.UI\wwwroot\css\site.css'
+2023-11-15 12:59:17.564 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.UI\wwwroot\js\site.js'
+2023-11-15 12:59:17.568 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 200 362 text/css 56.7463ms
+2023-11-15 12:59:17.571 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 37.3852ms
+2023-11-15 12:59:17.565 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-11-15 12:59:17.564 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.UI\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-11-15 12:59:17.574 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 24.3876ms
+2023-11-15 12:59:17.574 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-11-15 12:59:17.576 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 43.2208ms
+2023-11-15 12:59:17.578 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 46.2167ms
+2023-11-15 12:59:17.581 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 69.8374ms
+2023-11-15 12:59:17.603 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.2395ms
+2023-11-15 12:59:17.750 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/favicon.ico - -
+2023-11-15 12:59:17.752 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.UI\wwwroot\favicon.ico'
+2023-11-15 12:59:17.754 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/favicon.ico - - - 200 5430 image/x-icon 4.0501ms
+2023-11-15 12:59:19.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/Account/Login - -
+2023-11-15 12:59:19.190 +02:00 [INF] Executing endpoint 'CrudUi.Controllers.AccountController.Login (Crud.UI)'
+2023-11-15 12:59:19.206 +02:00 [INF] Executing ViewResult, running view Login.
+2023-11-15 12:59:19.288 +02:00 [INF] Executed ViewResult - view Login executed in 83.0743ms.
+2023-11-15 12:59:19.292 +02:00 [INF] Executed endpoint 'CrudUi.Controllers.AccountController.Login (Crud.UI)'
+2023-11-15 12:59:19.297 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/Account/Login - - - 200 - text/html;+charset=utf-8 114.1731ms
+2023-11-15 12:59:19.304 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/CrudUi.styles.css - -
+2023-11-15 12:59:19.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2023-11-15 12:59:19.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - -
+2023-11-15 12:59:19.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/lib/jquery-validation/dist/jquery.validate.min.js - -
+2023-11-15 12:59:19.350 +02:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.UI\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2023-11-15 12:59:19.350 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 45.3540ms
+2023-11-15 12:59:19.350 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_vs/browserLink - -
+2023-11-15 12:59:19.355 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/CrudUi.styles.css - - - 404 0 - 50.9426ms
+2023-11-15 12:59:19.362 +02:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.UI\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2023-11-15 12:59:19.362 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5824 text/javascript 57.0240ms
+2023-11-15 12:59:19.372 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 24601 text/javascript 67.1114ms
+2023-11-15 12:59:19.380 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1562ms
+2023-11-15 12:59:27.848 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7213/Account/Login application/x-www-form-urlencoded 224
+2023-11-15 12:59:27.852 +02:00 [INF] Executing endpoint 'CrudUi.Controllers.AccountController.Login (Crud.UI)'
+2023-11-15 12:59:27.959 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-15 12:59:27.966 +02:00 [INF] Executing ViewResult, running view Login.
+2023-11-15 12:59:27.978 +02:00 [INF] Executed ViewResult - view Login executed in 11.8892ms.
+2023-11-15 12:59:27.981 +02:00 [INF] Executed endpoint 'CrudUi.Controllers.AccountController.Login (Crud.UI)'
+2023-11-15 12:59:27.984 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7213/Account/Login application/x-www-form-urlencoded 224 - 200 - text/html;+charset=utf-8 136.4680ms
+2023-11-15 12:59:27.989 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/CrudUi.styles.css - -
+2023-11-15 12:59:27.991 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/CrudUi.styles.css - - - 404 0 - 1.3407ms
+2023-11-15 12:59:27.994 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - -
+2023-11-15 12:59:27.994 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_vs/browserLink - -
+2023-11-15 12:59:27.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 1.9226ms
+2023-11-15 12:59:28.004 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.3469ms
+2023-11-15 12:59:36.966 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7213/Account/Login application/x-www-form-urlencoded 226
+2023-11-15 12:59:36.968 +02:00 [INF] Executing endpoint 'CrudUi.Controllers.AccountController.Login (Crud.UI)'
+2023-11-15 12:59:36.994 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-15 12:59:36.998 +02:00 [INF] Executing ViewResult, running view Login.
+2023-11-15 12:59:37.008 +02:00 [INF] Executed ViewResult - view Login executed in 10.9369ms.
+2023-11-15 12:59:37.011 +02:00 [INF] Executed endpoint 'CrudUi.Controllers.AccountController.Login (Crud.UI)'
+2023-11-15 12:59:37.014 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7213/Account/Login application/x-www-form-urlencoded 226 - 200 - text/html;+charset=utf-8 48.1946ms
+2023-11-15 12:59:37.016 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/CrudUi.styles.css - -
+2023-11-15 12:59:37.018 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/CrudUi.styles.css - - - 404 0 - 1.2374ms
+2023-11-15 12:59:37.021 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - -
+2023-11-15 12:59:37.022 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_vs/browserLink - -
+2023-11-15 12:59:37.023 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 1.8405ms
+2023-11-15 12:59:37.031 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.2579ms
+2023-11-15 12:59:46.942 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7213/Account/Login application/x-www-form-urlencoded 226
+2023-11-15 12:59:46.944 +02:00 [INF] Executing endpoint 'CrudUi.Controllers.AccountController.Login (Crud.UI)'
+2023-11-15 12:59:46.950 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PersonName], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-15 12:59:46.954 +02:00 [INF] Executing ViewResult, running view Login.
+2023-11-15 12:59:46.964 +02:00 [INF] Executed ViewResult - view Login executed in 9.221ms.
+2023-11-15 12:59:46.966 +02:00 [INF] Executed endpoint 'CrudUi.Controllers.AccountController.Login (Crud.UI)'
+2023-11-15 12:59:46.969 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7213/Account/Login application/x-www-form-urlencoded 226 - 200 - text/html;+charset=utf-8 27.3326ms
+2023-11-15 12:59:46.974 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/CrudUi.styles.css - -
+2023-11-15 12:59:46.975 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - -
+2023-11-15 12:59:46.976 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/CrudUi.styles.css - - - 404 0 - 1.7138ms
+2023-11-15 12:59:46.977 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_vs/browserLink - -
+2023-11-15 12:59:46.977 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - - - 200 12346 application/javascript;+charset=utf-8 2.8251ms
+2023-11-15 12:59:46.988 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.4727ms

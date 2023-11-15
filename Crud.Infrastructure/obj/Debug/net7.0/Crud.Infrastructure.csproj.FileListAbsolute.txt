@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\bin\Debug\net7.0\Crud.Infrastructure.deps.json
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\bin\Debug\net7.0\Crud.Infrastructure.runtimeconfig.json
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\bin\Debug\net7.0\Crud.Infrastructure.dll
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\bin\Debug\net7.0\Crud.Infrastructure.pdb
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\bin\Debug\net7.0\Crud.Core.dll
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\bin\Debug\net7.0\Crud.Core.pdb
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.csproj.CopyComplete
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.dll
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\refint\Crud.Infrastructure.dll
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.pdb
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\Crud.Infrastructure.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\CleanArcticher\Clean.Crud.Solution\Crud.Infrastructure\obj\Debug\net7.0\ref\Crud.Infrastructure.dll
